@@ -2,19 +2,25 @@
 <html>
 <head>
   <title>Samantha Barrera</title>
-  <style type="text/css">
+  <link rel = "stylesheet" href = "style.css">
+<!--   <style type="text/css">
   body {
-  	padding-left: 10em;
+    padding-left: 10em;
     color: white;
-    background-color: #d1b3d8
+    background-color: #d1b3d8;
+}
+
+    .lucida {
+      font-family: "Lucida Console", Monaco, monospace;
+  }
 }
   ul.navbar {
-  	position: absolute;
+    position: absolute;
     top: 2em;
     left: 1em;
-    width: 9em 
+    width: 9em;
 }
-  </style>
+  </style> -->
 </head>
 
 
@@ -23,31 +29,41 @@
 <!-- -------------------- -->
 <!--       HEARDER        -->
 <!-- -------------------- -->
-<h1>Samantha Barrera</h1>
+  <div class = "header">
 
-<p>Welcome to this temporary page.
+    <h1 class = "lucida">Samantha Barrera</h1>
 
-<p>I'm learning more HTML/CSS so this is still under construction.
+  </div>
 
 <!-- -------------------- -->
 <!-- SITE NAVIGATION MENU -->
 <!-- -------------------- -->
-<ul class="navbar" style = "list-style-type: none">
-	<!-- Resume -->
-  <li><a href="Images/resume.pdf" target = "_blank">
-  	<img src = "Images/resume-icon.png" width = "50" height = "50" border = "0"></a></li>
 
-  	<!-- LinkedIn -->
-  <li><a href = "https://www.linkedin.com/in/slbarrera/" target = "_blank">
-  	<img src = "Images/linkedin-icon.png" width = "50" height = "50" border = "0"></a></li>
+  <div class = "sidebar" style = "list-style-type: none">
 
-  	<!-- GitHub -->
-  <li><a href = "https://github.com/slbarrera" target = "_blank">
-  	<img src = "Images/github-icon.png" width = "50" height = "50" border = "0"></a></li>
+    <!-- Resume -->
+    <li><a href="Images/resume.pdf" target = "_blank">
+      <img src = "Images/resume-icon.png" width = "50" height = "50" border = "0"></a></li>
 
-</ul>
+    <!-- LinkedIn -->
+    <li><a href = "https://www.linkedin.com/in/slbarrera/" target = "_blank">
+      <img src = "Images/linkedin-icon.png" width = "50" height = "50" border = "0"></a></li>
 
-<a href="https://icons8.com">Icon pack by Icons8</a>
+    <!-- GitHub -->
+    <li><a href = "https://github.com/slbarrera" target = "_blank">
+      <img src = "Images/github-icon.png" width = "50" height = "50" border = "0"></a></li>
+  
+  </div>
+
+<!-- -------------------- -->
+<!--         MAIN         -->
+<!-- -------------------- -->
+
+  <div class = "main">
+    <p class = "lucida">Welcome to this temporary page.</p>
+    <p class = "lucida">I'm learning more HTML/CSS so this is still under construction.</p>
+    <a href="https://icons8.com">Icon pack by Icons8</a>
+  </div>
 
 </body>
 </html>
