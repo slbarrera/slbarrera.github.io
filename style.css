@@ -31,3 +31,24 @@ image {
     left:178px; top:92px; right:0; bottom:0;
 }
 
+.resume-animate-left {
+	position:relative;
+	animation:animateleft 0.4s;
+}
+
+
+.linkedin-animate-left {
+	position:relative;
+	animation:animateleft 0.4s;
+	animation-delay: .25s;
+}
+
+.github-animate-left {
+	position:relative;
+	animation:animateleft 0.4s;
+	animation-delay: .5s;
+}
+
+@keyframes animateleft {
+	from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
